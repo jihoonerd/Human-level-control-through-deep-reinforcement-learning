@@ -1,5 +1,7 @@
 # Human-level control through deep reinforcement learning
 
+![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/jihoonerd/Human-level-control-through-deep-reinforcement-learning)]
+
 ![atlantis](/assets/atlantis.gif)
 ![boxing](/assets/boxing.gif)
 ![breakout](/assets/breakout.gif)
