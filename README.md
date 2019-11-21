@@ -22,7 +22,9 @@ You can see detailed explanation posting at ~[HERE]()~ (I am working on this yet
 
 ## Requirements
 
-Refer `requirements.txt` or `Pipfile`. You can set your virtual environment by `virtualenv`(*recommended*) or `pipenv`.
+Refer `requirements.txt` or `Pipfile`. You can set your virtual environment by `virtualenv`(*recommended*) or `pipenv`. 
+
+***Default running environment is assumed to be CPU-ONLY. If you want to run this repo on GPU machine, just replace `tensorflow` to `tensorflow-gpu` in package lists.***
 
 ## How to install
 
