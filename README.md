@@ -18,6 +18,10 @@ This paper is widely known for a famous [video clip](https://www.youtube.com/wat
 
 You can see detailed explanation posting at ~[HERE]()~ (I am working on this yet :smile:)
 
+## Model Structure
+
+![nn](/assets/nn.svg)
+
 ## Requirements
 
 Refer `requirements.txt` or `Pipfile`. You can set your virtual environment by `virtualenv`(*recommended*) or `pipenv`. 
