@@ -16,15 +16,11 @@ This paper is widely known for a famous [video clip](https://www.youtube.com/wat
 * Simple structure
 * Easy to reproduce
 
-You can see detailed explanation posting at ~[HERE]()~ (I am working on this yet :smile:)
-
 ## Model Structure
 
 ![nn](/assets/nn.svg)
 
 ## Requirements
-
-Refer `requirements.txt` or `Pipfile`. You can set your virtual environment by `virtualenv`(*recommended*) or `pipenv`. 
 
 ***Default running environment is assumed to be CPU-ONLY. If you want to run this repo on GPU machine, just replace `tensorflow` to `tensorflow-gpu` in package lists.***
 
@@ -36,27 +32,6 @@ Refer `requirements.txt` or `Pipfile`. You can set your virtual environment by `
 $ virtualenv venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
-```
-### `pipenv`
-
-```bash
-$ pipenv install
-```
-
-If you have trouble making virtual environment through `pipenv`, try followings:
-
-Get your python interpreter by
-```bash
-$ which python
-```
-Use the python interpreter to make virtual environment.
-```bash
-$ pipenv install --three --python=[YOUR PYTHON PATH]
-```
-
-Also, in case of locking does not work, you can simply skip it.
-```bash
-$ pipenv install --skip-lock
 ```
 
 ## How to run
